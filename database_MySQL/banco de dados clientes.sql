@@ -34,6 +34,6 @@ select *from clients_ecommerce;
 select * from products;
 select * from cart;
 
-insert into clients_ecommerce (ds_name, nm_cpf, fl_status) values ('Bryan', 1234567891,'A');
+insert into clients_ecommerce (ds_name, nm_cpf, fl_status) values ('Sophia', 543217689,'A');
 insert into products (ds_name, ds_description, nm_value, ds_brand, ds_status) values ('PC', 'Gamer', 5999.00, 'DELL','A');
 insert into cart (id_client, id_product) values (1,1);
